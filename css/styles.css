@@ -1,0 +1,138 @@
+body {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* NAV BAR */
+.navbar-brand {
+    width: 20%;
+}
+
+.navbar-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: #9a9494;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-link:hover {
+    color: #048050;
+}
+
+.navbar-toggler{
+    background-color: #048050;    
+}
+
+/* TITLE */
+
+#title {
+    text-align: left;
+}
+
+.big_heading {
+    color: #048050;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+.hero_paragraph {
+    color: #048050;
+    text-align: left;
+    line-height: 2;
+}
+
+.heading_button {
+    margin: 3% 3% 5% 0;
+}
+
+.bottle {
+    width: 50%;
+    transform: rotate(25deg);
+    filter: drop-shadow(3px 50px 59px rgba(0, 0, 0, 0.15));
+    position: absolute;
+    left: 43%;
+}
+
+@media (max-width:1028px) {
+    .bottle {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
+
+/* INGREDIENTS */
+.ingredients {
+    background-color: #fff;
+    position: relative;
+}
+
+.ing_images {
+    width: 65%;
+    border-radius: 100%;
+    margin: 10% 3% 5% 0;
+    padding: 10%;
+}
+
+.ing_box {
+    padding: 5%;
+}
+
+.ing_paragraph {
+    color: #9a9494;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    background-color: #048050;
+    padding-bottom: 30px;
+}
+
+.testimonial-text {
+    font-size: 2.25rem;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #fff;
+}
+
+/*CTA*/
+
+.cta_heading {
+    color: #FF0606;
+    font-size: 4rem;
+    font-weight: 600;
+   
+    
+}
+
+.cta_paragraph {
+    color: #FF0606;
+    line-height:
+}
+
+.cta_button{
+    margin: 3% 3% 5% 0; 
+}
+
+/*FOOTER*/
+.socials{
+    padding: 0 2% 2%;
+    color: #9a9494;
+}
+.socials:hover{
+    color:  #048050;
+}
+
+.copyright{
+    color: #9a9494;
+    font-size: 0.8rem;   
+}
